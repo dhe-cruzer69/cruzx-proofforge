@@ -1,0 +1,9 @@
+policy:
+  required_checks:
+    - unit
+    - integration
+  fail_on_regression: true
+  max_allowed_coverage_drop: 2
+adapters:
+  - python
+  - javascript
